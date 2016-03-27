@@ -1,0 +1,23 @@
+<html>
+<head>
+<title> java script</title>
+</head>
+<script>
+	function myfunction () {
+	ver first =document.getElementById ("textbox1") .value ;
+	ver seconds =document.getElementById ("textbox2") .value ;
+	ver three =document.getElementById ("textbox3") .value ;
+	ver foure =document.getElementById ("textbox4") .value ;
+	ver answer= parse float(first) +parse float(seconds)+parse float(three) +parse floa(foure);
+	// ver answer= parse float(three) + parse floa(foure) ;
+	 document.getElementById ('text5').value=answer;
+	}
+	</script>
+	<body>
+	<input type="text"name="textbox1"id="textbox1"/> + <input type="text"name="textbox2"id="textbox2"/> +
+	<input type="text"name="textbox3"id="textbox3"/> + <input type="text"name="textbox4"id="textbox4"/>
+	<input type="submit"name="button"id="button1"onClick="Myfunction()"value="="/>
+	<br/>
+	your answer:-
+	<input type="text"name="text5"id="text5"readonly="true"/>
+</body>
